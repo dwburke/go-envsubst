@@ -1,4 +1,4 @@
-module gitea/dwburke/go-envsubst
+module github.com/dwburke/go-envsubst
 
 go 1.25.1
 
