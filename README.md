@@ -17,11 +17,45 @@ Substitute environment variables, YAML data, and Go template expressions into co
 
 ## Installation
 
+### Binary Releases
+
+Download pre-built binaries from the [GitHub Releases](https://github.com/dwburke/go-envsubst/releases) page.
+
+### Package Managers
+
+#### Arch Linux (AUR)
+
+```bash
+yay -S go-envsubst-bin
+# or
+paru -S go-envsubst-bin
+```
+
+#### Debian/Ubuntu (DEB)
+
+```bash
+# Download the .deb file from releases
+wget https://github.com/dwburke/go-envsubst/releases/download/v1.0.0/go-envsubst_1.0.0_Linux_x86_64.deb
+sudo dpkg -i go-envsubst_1.0.0_Linux_x86_64.deb
+```
+
+#### Red Hat/Fedora/CentOS (RPM)
+
+```bash
+# Download the .rpm file from releases
+wget https://github.com/dwburke/go-envsubst/releases/download/v1.0.0/go-envsubst_1.0.0_Linux_x86_64.rpm
+sudo rpm -i go-envsubst_1.0.0_Linux_x86_64.rpm
+```
+
+### From Source
+
+#### With Go installed
+
 ```bash
 go install github.com/dwburke/go-envsubst@latest
 ```
 
-Or build locally:
+#### Build locally
 
 ```bash
 git clone https://github.com/dwburke/go-envsubst
